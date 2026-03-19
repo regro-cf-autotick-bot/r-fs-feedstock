@@ -39,6 +39,8 @@ requirements:
     - {{ posix }}zip               # [win]
   host:
     - r-base
+    - libuv                        # [win]
+    - zlib                         # [win]
   run:
     - r-base
 
