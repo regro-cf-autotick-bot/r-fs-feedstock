@@ -1,4 +1,4 @@
-{% set version = "1.6.7" %}
+{% set version = "2.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/fs_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/fs/fs_{{ version }}.tar.gz
-  sha256: e8f0a8f4b15177166c9530cd922e38705421467f05ec55500b28bca5864be411
+  sha256: 1d1706d748772d16fd1a8b7f667c761948bb931199f85fad081396847c07e0c2
 
 build:
   number: 0
